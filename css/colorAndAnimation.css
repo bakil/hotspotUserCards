@@ -1,0 +1,250 @@
+/* theme color */ 
+.w3-theme-l5 {color:#000 !important; background-color:#f3f4fb !important}
+.w3-theme-l4 {color:#000 !important; background-color:#d8dcf1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#b1b8e3 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#8995d6 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#6271c8 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#3949a3 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#334191 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#2d397f !important}
+.w3-theme-d4 {color:#fff !important; background-color:#26316d !important}
+.w3-theme-d5 {color:#fff !important; background-color:#20295b !important}
+.w3-theme-light {color:#000 !important; background-color:#f3f4fb !important}
+.w3-theme-dark {color:#fff !important; background-color:#20295b !important}
+.w3-theme-action {color:#fff !important; background-color:#20295b !important}
+.w3-theme {color:#fff !important; background-color:#3f51b5 !important}
+.w3-text-theme {color:#3f51b5 !important}
+.w3-theme-border {border-color:#3f51b5 !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#3f51b5 !important}
+ /* end of theme color */   
+
+
+
+
+ /* highway color */
+    .w3-highway-brown
+{color:#fff;background-color:#633517}
+.w3-highway-red
+{color:#fff;background-color:#a6001a}
+.w3-highway-orange
+{color:#fff;background-color:#e06000}
+.w3-highway-schoolbus
+{color:#fff;background-color:#ee9600}
+.w3-highway-yellow
+{color:#fff;background-color:#ffab00}
+.w3-highway-green
+{color:#fff;background-color:#004d33}
+.w3-highway-blue
+{color:#fff;background-color:#00477e}
+    
+/* end of highway color */
+
+
+
+
+
+    
+/* vivd color */
+.w3-vivid-pink
+{color:#fff;background-color:#ffb5bA}
+.w3-vivid-red
+{color:#fff;background-color:#be0032}
+.w3-vivid-orange
+{color:#fff;background-color:#f38400}
+.w3-vivid-yellow
+{color:#fff;background-color:#f3c300}
+.w3-vivid-green
+{color:#fff;background-color:#008856}
+.w3-vivid-blue
+{color:#fff;background-color:#00a1c2}
+.w3-vivid-black
+{color:#fff;background-color:#000}
+.w3-vivid-white
+{color:#000;background-color:#fff}
+.w3-vivid-purple
+{color:#fff;background-color:#9a4eae}
+.w3-vivid-purple
+{color:#fff;background-color:#9a4eae}
+.w3-vivid-yellowish-pink
+{color:#fff;background-color:#ffb7a5}
+.w3-vivid-reddish-orange
+{color:#fff;background-color:#e25822}
+.w3-vivid-orange-yellow
+{color:#fff;background-color:#f6a600}
+.w3-vivid-greenish-yellow
+{color:#fff;background-color:#dcd300}
+.w3-vivid-yellow-green
+{color:#fff;background-color:#8db600}
+.w3-vivid-yellowish-green
+{color:#fff;background-color:#27a64c}
+.w3-vivid-bluish-green
+{color:#fff;background-color:#008882}
+.w3-vivid-greenish-blue
+{color:#fff;background-color:#0085a1}
+.w3-vivid-purplish-blue
+{color:#fff;background-color:#30267a}
+.w3-vivid-reddish-purple
+{color:#fff;background-color:#870074}
+.w3-vivid-purplish-red
+{color:#fff;background-color:#ce4676}
+ 
+/* end of vivd color */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+         .coloranmi {   
+animation-name: colorchange;  
+animation-duration: 6s;
+animation-timing-function: ease-out;
+animation-delay: 1s;
+animation-iteration-count: 60 ;
+animation-direction: alternate;
+animation-fill-mode:forwards;
+animation-play-state: running;
+}
+
+@keyframes colorchange {
+    0% { color:  #F44336}  
+    10% { color:  #9C27B0}
+    20% {  color: #E91E63}  
+    30% { color:  #2196F3}
+    40% {  color: #00FFFF}
+    50% { color:  #4CAF50}
+    60% { color:  #FDF5E6}
+    
+    70% {  color: #FF5722} 
+    80% { color:  #fff}
+    90% { color:  yellow}
+    100% { color: greenyellow}
+    
+    
+          }
+@-webkit-keyframes colorchange {
+    0% { color:  #F44336}  
+    10% { color:  #9C27B0}
+    20% {  color: #E91E63}  
+    30% { color:  #2196F3}
+    40% {  color: #00FFFF}
+    50% { color:  #4CAF50}
+    60% { color:  #FDF5E6}
+    
+    70% {  color: #FF5722} 
+    80% { color:  #fff}
+    90% { color:  yellow}
+    100% { color: greenyellow}
+    
+    
+          }
+
+@-moz-keyframes colorchange {
+    0% { color:  #F44336}  
+    10% { color:  #9C27B0}
+    20% {  color: #E91E63}  
+    30% { color:  #2196F3}
+    40% {  color: #00FFFF}
+    50% { color:  #4CAF50}
+    60% { color:  #FDF5E6}
+    
+    70% {  color: #FF5722} 
+    80% { color:  #fff}
+    90% { color:  yellow}
+    100% { color: greenyellow}
+    
+    
+          }
+
+        
+/*                            */        
+        
+        
+@keyframes heart {
+    0% { border:  6px solid darkred}  
+     
+    30% { border: 4px solid red }
+    
+    60% { border:  2px solid darkred}
+    
+    
+    100% { border: 0px solid red}
+    
+    
+          }
+        
+  .beat {   
+animation-name: heart;  
+animation-duration: 2s;
+animation-timing-function: ease-out;
+animation-delay: 0s;
+animation-iteration-count: 60 ;
+animation-direction: alternate;
+animation-fill-mode:forwards;
+animation-play-state: running;
+}  
+
+        
+article:hover{
+	
+   
+	
+	
+   
+	transition: all 0.5s ease-in-out;
+	/*	property			duration	delay 
+		border-left			1.0s		0.0s,
+		border-right		1.0s		0.0s,
+		-webkit-transform	0.5s		1.0s,
+        -moz-transform    	0.5s		1.0s,
+		font-weight         0.5s		1.0s,
+		background-color	0.5s		2.5s;*/
+}
+        
+        .about-us-section div a:hover h4  { color: blue;padding: 10px 0px; transition: all 0.5s ease-out}
+      
+        
+        
+        
+        
+        
+        
+        /* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px yellow;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    25% {text-shadow: 10px 20px 30px red;}
+    50% {text-shadow: 10px 20px 30px yellow;}
+    75% {text-shadow: 10px 20px 30px blue;}
+}
+.to-be-defined {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}        
+        
+ 
+    
+   

@@ -1,0 +1,154 @@
+/* common framwork */
+.arabic {direction: rtl}
+body , html { font-family: 'Droid Arabic Kufi', sans-serif; background-color: #eee}
+
+/* end of common framwork */
+
+/* Top nav bar */
+
+
+.top-fixed { position: fixed; top: 5px; right: 5px;left: 5px; z-index: 5; opacity: 0.9 }
+.w3-navbar > span {line-height: 38px;display: inline-block; padding:0px 30px; font-weight: bolder}
+
+/* end of Top nav bar */
+
+/*side bar */
+
+
+.fixed { position: fixed; top: 50px;right: 20px}
+/* end of side bar */
+
+
+/* main section */
+.main-section {padding-top: 30px}
+/* end of main section */
+
+
+
+
+
+
+
+
+
+
+
+/*TOOL TIP */
+#right_menu .tooltip {
+    position: relative;
+   
+    }
+
+#right_menu .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0,0,255,0.5);
+    border: 1px solid white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 40px;
+    line-height: 200%
+}
+
+#right_menu .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+#right_menu .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* END OF TOOL TIP */
+
+/*TOOL TIP */
+#left_menu .tooltip {
+    position: relative;
+   
+    }
+
+#left_menu .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0,0,255,0.5);
+    border: 1px solid white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 40px;
+     line-height: 200%
+}
+
+#left_menu .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent white transparent transparent ;
+}
+#left_menu .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* END OF TOOL TIP */
+    
+   @media (max-width: 768px)  { 
+       
+      
+                                                        
+                                                        
+                                                        
+                                                     }
+ 
+    
+    
+     @media (min-width: 600px) {
+                                 .container { width: 90%}
+                                 .container {    padding-right: 15px;
+                                                padding-left: 15px;
+                                                margin-right: auto;
+                                                margin-left: auto;
+                                            }  
+                                 
+                               
+                                 
+                            
+                              }
+     @media (min-width: 768px)  { 
+                                                        .container { width: 750px}
+                                                        
+                                                         
+         
+                                                         
+                                                        
+                                                     }
+
+    @media (min-width: 992px) {
+                                  .container { width: 970px}
+                                  .w3-sidenav.w3-collapse {   display:none } 
+                               
+                                 
+                                
+    @media (min-width: 1200px) {
+                                  .container { width: 1170px}
+
+                                }  
+        
+     
